@@ -24,7 +24,13 @@
         "drupal/console": "~1.0",
         "drupal/devel": "8.*",
         "drupal/admin_toolbar": "^8.1",
-        "drupal/features": "^8.0"
+        "drupal/features": "^8.0",
+        "drupal/swiftmailer": "8.1.x-dev",
+        "drupal/pathauto": "dev-8.x-1.x",
+        "drupal/inline_entity_form": "8.1.0-alpha6",
+        "drupal/paragraphs": "^8.1",
+        "drupal/entity_reference_revisions": "^8.1",
+        "drupal/weight": "^8.3"
     },
     "require-dev": {
         "behat/mink": "~1.7",

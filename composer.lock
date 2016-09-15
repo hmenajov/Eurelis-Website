@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d6cfbd5ad4be46a850817992882201a3",
-    "content-hash": "27a99f7562e298701d7acce1610c2e08",
+    "hash": "77e897ad3798bbf7d0c968d2dab07b7f",
+    "content-hash": "64b870d0ad64eb23fe1ba826e3707ecc",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1247,6 +1247,46 @@
             "time": "2016-09-07 19:16:42"
         },
         {
+            "name": "drupal/ctools",
+            "version": "8.3.0-alpha27",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/ctools",
+                "reference": "231e2649678d58901368a9e5681f36865ce84e73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.0-alpha27.zip",
+                "reference": "231e2649678d58901368a9e5681f36865ce84e73",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "replace": {
+                "drupal/ctools_block": "self.version",
+                "drupal/ctools_views": "self.version"
+            },
+            "suggest": {
+                "drupal/block": "Required by drupal/ctools_views",
+                "drupal/core": "Required by drupal/ctools_block, drupal/ctools_views",
+                "drupal/views": "Required by drupal/ctools_views"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-3.x": "8.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides a number of utility and helper APIs for Drupal developers and site builders.",
+            "homepage": "https://www.drupal.org/project/ctools",
+            "time": "2016-08-20 19:59:03"
+        },
+        {
             "name": "drupal/devel",
             "version": "8.1.0-alpha1",
             "source": {
@@ -1296,6 +1336,37 @@
             "time": "2016-06-23 14:14:07"
         },
         {
+            "name": "drupal/entity_reference_revisions",
+            "version": "8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/entity_reference_revisions.git",
+                "reference": "500d30fe98e8cafd05ff770c9748169acd257aeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/entity_reference_revisions-8.x-1.0.zip",
+                "reference": "500d30fe98e8cafd05ff770c9748169acd257aeb",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Adds a Entity Reference field type with revision support.",
+            "homepage": "https://www.drupal.org/project/entity_reference_revisions",
+            "time": "2016-07-21 15:50:27"
+        },
+        {
             "name": "drupal/features",
             "version": "8.3.0-beta9",
             "source": {
@@ -1306,7 +1377,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/features-8.x-3.0-beta9.zip",
-                "reference": null,
+                "reference": "86ec48573f564faf89e87c663786f45c438e5ec5",
                 "shasum": null
             },
             "require": {
@@ -1333,6 +1404,203 @@
             "description": "Enables administrators to package configuration into modules.",
             "homepage": "https://www.drupal.org/project/features",
             "time": "2016-09-14 20:07:50"
+        },
+        {
+            "name": "drupal/inline_entity_form",
+            "version": "8.1.0-alpha6",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/inline_entity_form",
+                "reference": "27af4de9fd961fa6ae1369604d05fec8b06db867"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-alpha6.zip",
+                "reference": "27af4de9fd961fa6ae1369604d05fec8b06db867",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides a widget for inline management (creation, modification, removal) of referenced entities. ",
+            "homepage": "https://www.drupal.org/project/inline_entity_form",
+            "time": "2016-04-18 21:57:48"
+        },
+        {
+            "name": "drupal/paragraphs",
+            "version": "8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/paragraphs",
+                "reference": "7d70adcb69416f35eb2d2596340461df8efda009"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.0.zip",
+                "reference": "7d70adcb69416f35eb2d2596340461df8efda009",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/entity_reference_revisions": "8.*"
+            },
+            "replace": {
+                "drupal/paragraphs_demo": "self.version",
+                "drupal/paragraphs_type_permissions": "self.version"
+            },
+            "suggest": {
+                "drupal/block": "Required by drupal/paragraphs_demo",
+                "drupal/content_translation": "Required by drupal/paragraphs_demo",
+                "drupal/core": "Required by drupal/paragraphs_demo, drupal/paragraphs_type_permissions",
+                "drupal/field": "Required by drupal/paragraphs_demo",
+                "drupal/field_ui": "Required by drupal/paragraphs_demo",
+                "drupal/image": "Required by drupal/paragraphs_demo",
+                "drupal/language": "Required by drupal/paragraphs_demo",
+                "drupal/node": "Required by drupal/paragraphs_demo",
+                "drupal/search_api": "Required by drupal/paragraphs_demo",
+                "drupal/search_api_db": "Required by drupal/paragraphs_demo",
+                "drupal/views": "Required by drupal/paragraphs_demo"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Enables the creation of paragraphs entities. To safely uninstall, go first to Structure > Paragraphs types > Settings.",
+            "homepage": "https://www.drupal.org/project/paragraphs",
+            "time": "2016-07-23 11:51:27"
+        },
+        {
+            "name": "drupal/pathauto",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/pathauto",
+                "reference": "445624c0d02a5e22f5839ac3ce65eaa088d747cb"
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/ctools": "8.*",
+                "drupal/token": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides a mechanism for modules to automatically generate aliases for the content they manage.",
+            "homepage": "https://www.drupal.org/project/pathauto",
+            "time": "2016-09-04 21:39:32"
+        },
+        {
+            "name": "drupal/swiftmailer",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/swiftmailer",
+                "reference": "d4e036782026a760a1fef83940a83c3bc630ce14"
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "html2text/html2text": "~4.0.1",
+                "swiftmailer/swiftmailer": "~5.4.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Installs Swift Mailer as a mail system.",
+            "homepage": "https://www.drupal.org/project/swiftmailer",
+            "time": "2016-05-17 11:37:52"
+        },
+        {
+            "name": "drupal/token",
+            "version": "8.1.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/token",
+                "reference": "1c68e82525fda1bd12021502da81b929b9ae5c02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.0-beta1.zip",
+                "reference": "1c68e82525fda1bd12021502da81b929b9ae5c02",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides a user interface for the Token API and some missing core tokens.",
+            "homepage": "https://www.drupal.org/project/token",
+            "time": "2016-08-09 07:03:16"
+        },
+        {
+            "name": "drupal/weight",
+            "version": "8.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/weight",
+                "reference": "277f0c43b1acc3c1a3adf88c7f625a949331a487"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/weight-8.x-3.0-beta1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/field": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-3.x": "8.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Allows arbitrary ordering of entities.",
+            "homepage": "https://www.drupal.org/project/weight",
+            "time": "2015-05-03 18:45:08"
         },
         {
             "name": "drush/drush",
@@ -1762,6 +2030,43 @@
                 "uri"
             ],
             "time": "2016-06-24 23:00:38"
+        },
+        {
+            "name": "html2text/html2text",
+            "version": "4.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mtibben/html2text.git",
+                "reference": "f55104b7c9f99b0937f0e20fe051b19f9c0ecad1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mtibben/html2text/zipball/f55104b7c9f99b0937f0e20fe051b19f9c0ecad1",
+                "reference": "f55104b7c9f99b0937f0e20fe051b19f9c0ecad1",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance",
+                "symfony/polyfill-mbstring": "If you can't install ext-mbstring"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Html2Text\\": [
+                        "src/",
+                        "test/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "description": "Converts HTML to formatted plain text",
+            "time": "2016-03-16 23:24:34"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -2614,6 +2919,59 @@
             ],
             "description": "Automatic BASH completion for Symfony Console Component based applications.",
             "time": "2015-05-07 12:21:50"
+        },
+        {
+            "name": "swiftmailer/swiftmailer",
+            "version": "v5.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swiftmailer/swiftmailer.git",
+                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
+                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.4-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/swift_required.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Corbyn"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Swiftmailer, free feature-rich PHP mailer",
+            "homepage": "http://swiftmailer.org",
+            "keywords": [
+                "email",
+                "mail",
+                "mailer"
+            ],
+            "time": "2016-07-08 11:51:25"
         },
         {
             "name": "symfony-cmf/routing",
@@ -5702,7 +6060,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/swiftmailer": 20,
+        "drupal/pathauto": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
