@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'cQk9uhDFev_20lr4qkfBPHh4rK4QPdvc_GLcdTGzsANalTBGJh4K7rCH6_Z8O6bs66Y6WSAVMw';
 
 /**
  * Deployment identifier.
@@ -714,3 +714,15 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 # if (file_exists(__DIR__ . '/settings.local.php')) {
 #   include __DIR__ . '/settings.local.php';
 # }
+$databases['default']['default'] = array (
+  'database' => 'eurelis',
+  'username' => 'root',
+  'password' => '',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['install_profile'] = 'standard';
+$config_directories['sync'] = 'sites/default/files/config_8lY2L7jULz_21pmsqfsQNPdgzIbyI1nEfVfrXFADqgWOD762SWUlrfj8KzmqtehgoPkmWJOwwg/sync';
