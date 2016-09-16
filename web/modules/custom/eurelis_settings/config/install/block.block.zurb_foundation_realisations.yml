@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.realisations
+  module:
+    - system
+  theme:
+    - zurb_foundation
+id: zurb_foundation_realisations
+theme: zurb_foundation
+region: footer_first
+weight: -5
+provider: null
+plugin: 'system_menu_block:realisations'
+settings:
+  id: 'system_menu_block:realisations'
+  label: Réalisations
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

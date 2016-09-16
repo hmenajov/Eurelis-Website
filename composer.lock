@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "77e897ad3798bbf7d0c968d2dab07b7f",
-    "content-hash": "64b870d0ad64eb23fe1ba826e3707ecc",
+    "hash": "b00cb768747b2156fff2e36b07d5a6e5",
+    "content-hash": "90ff316937f63b76610169d2e5d6e6b9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1581,7 +1581,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/weight-8.x-3.0-beta1.zip",
-                "reference": null,
+                "reference": "277f0c43b1acc3c1a3adf88c7f625a949331a487",
                 "shasum": null
             },
             "require": {
@@ -1601,6 +1601,55 @@
             "description": "Allows arbitrary ordering of entities.",
             "homepage": "https://www.drupal.org/project/weight",
             "time": "2015-05-03 18:45:08"
+        },
+        {
+            "name": "drupal/zurb_foundation",
+            "version": "8.6.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/zurb-foundation.git",
+                "reference": "9eba86db3f16090c7509073ce55dc922230d8fba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/zurb-foundation-8.x-6.0-alpha1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "replace": {
+                "drupal/zurb_foundation": "self.version"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-6.x": "8.6.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Quillen (kevinquillen)",
+                    "homepage": "https://www.drupal.org/u/kevinquillen",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Samuel Mortensen (samuelmortenson)",
+                    "homepage": "https://www.drupal.org/u/samuelmortenson",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "The most advanced responsive front-end framework in the world, now in Drupal! Based on Zurb Foundation version 6.x.",
+            "homepage": "http://drupal.org/project/zurb_foundation",
+            "keywords": [
+                "Drupal"
+            ],
+            "time": "2016-05-02 17:11:51"
         },
         {
             "name": "drush/drush",

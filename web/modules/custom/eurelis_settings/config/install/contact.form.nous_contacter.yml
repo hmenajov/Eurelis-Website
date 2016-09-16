@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: nous_contacter
+label: 'Nous contacter'
+recipients:
+  - contact@eurelis.com
+reply: ''
+weight: 0
