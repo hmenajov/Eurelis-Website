@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b00cb768747b2156fff2e36b07d5a6e5",
-    "content-hash": "90ff316937f63b76610169d2e5d6e6b9",
+    "hash": "d3d821034c28e3c99853cba9e5af37fa",
+    "content-hash": "3219bfc430954ceb97e0c7a12ceccba1",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1406,6 +1406,38 @@
             "time": "2016-09-14 20:07:50"
         },
         {
+            "name": "drupal/google_map_field",
+            "version": "8.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/google_map_field",
+                "reference": "b1f2ad3990ed8a89d24f2a4acf8eef04d3065d52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/google_map_field-8.x-1.1.zip",
+                "reference": "b1f2ad3990ed8a89d24f2a4acf8eef04d3065d52",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/field": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Defines a field type for Google Maps.",
+            "homepage": "https://www.drupal.org/project/google_map_field",
+            "time": "2016-02-13 21:01:10"
+        },
+        {
             "name": "drupal/inline_entity_form",
             "version": "8.1.0-alpha6",
             "source": {
@@ -1604,17 +1636,11 @@
         },
         {
             "name": "drupal/zurb_foundation",
-            "version": "8.6.0-alpha1",
+            "version": "dev-8.x-5.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/zurb-foundation.git",
-                "reference": "9eba86db3f16090c7509073ce55dc922230d8fba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/zurb-foundation-8.x-6.0-alpha1.zip",
-                "reference": null,
-                "shasum": null
+                "reference": "7ae361c04f857f44d7f14d1514666f47fd39c07c"
             },
             "require": {
                 "drupal/core": "8.*"
@@ -1625,31 +1651,16 @@
             "type": "drupal-theme",
             "extra": {
                 "branch-alias": {
-                    "dev-8.x-6.x": "8.6.x-dev"
+                    "dev-8.x-5.x": "8.5.x-dev"
                 }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
-            "authors": [
-                {
-                    "name": "Kevin Quillen (kevinquillen)",
-                    "homepage": "https://www.drupal.org/u/kevinquillen",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Samuel Mortensen (samuelmortenson)",
-                    "homepage": "https://www.drupal.org/u/samuelmortenson",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "The most advanced responsive front-end framework in the world, now in Drupal! Based on Zurb Foundation version 6.x.",
-            "homepage": "http://drupal.org/project/zurb_foundation",
-            "keywords": [
-                "Drupal"
-            ],
-            "time": "2016-05-02 17:11:51"
+            "description": "The most advanced responsive front-end framework in the world, now in Drupal! Based on Zurb Foundation version 5.x.",
+            "homepage": "https://www.drupal.org/project/zurb-foundation",
+            "time": "2016-03-25 21:01:44"
         },
         {
             "name": "drush/drush",
@@ -6111,7 +6122,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/swiftmailer": 20,
-        "drupal/pathauto": 20
+        "drupal/pathauto": 20,
+        "drupal/zurb_foundation": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
