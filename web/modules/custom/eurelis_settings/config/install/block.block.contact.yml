@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.contact
+  module:
+    - system
+  theme:
+    - bartik
+id: contact
+theme: bartik
+region: footer_fourth
+weight: -9
+provider: null
+plugin: 'system_menu_block:contact'
+settings:
+  id: 'system_menu_block:contact'
+  label: Contact
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

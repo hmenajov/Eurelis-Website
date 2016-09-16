@@ -1,0 +1,10 @@
+diff a/web/sites/default/settings.php b/web/sites/default/settings.php	(rejected hunks)
+@@ -729,4 +729,8 @@
+    'driver' => 'mysql',
+  );
+  $settings['install_profile'] = 'standard';
+++<<<<<<< Updated upstream
+ +$config_directories['sync'] = 'sites/default/files/config_8lY2L7jULz_21pmsqfsQNPdgzIbyI1nEfVfrXFADqgWOD762SWUlrfj8KzmqtehgoPkmWJOwwg/sync';
+++=======
++ $config_directories['sync'] = 'sites/default/files/config_drUDdc84NH8d5Gz2Gz05MBqjQopSkvl4-S1Ra57OLAXfa53HymfWh6Fob9jQIWRt3T9rUfFZ6g/sync';
+++>>>>>>> Stashed changes

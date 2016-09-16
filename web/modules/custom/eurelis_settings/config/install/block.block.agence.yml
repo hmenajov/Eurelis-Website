@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.agence
+  module:
+    - system
+  theme:
+    - bartik
+id: agence
+theme: bartik
+region: footer_first
+weight: -9
+provider: null
+plugin: 'system_menu_block:agence'
+settings:
+  id: 'system_menu_block:agence'
+  label: Agence
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }
