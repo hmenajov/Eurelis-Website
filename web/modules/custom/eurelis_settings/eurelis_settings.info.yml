@@ -3,6 +3,14 @@ type: module
 core: 8.x
 dependencies:
   - block
+  - block_content
   - contact
   - features
+  - field
+  - google_map_field
+  - language
+  - node
   - system
+  - text
+  - user
+  - views

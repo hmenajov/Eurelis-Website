@@ -1,1 +1,11 @@
+excluded:
+  - language.content_settings.block_content.google_map
+  - block_content.type.google_map
+  - core.entity_form_display.block_content.google_map.default
+  - core.entity_view_display.block_content.google_map.default
+  - field.field.block_content.google_map.field_map_name
+  - field.field.block_content.google_map.field_popin
+  - field.storage.block_content.field_map_name
+  - field.storage.block_content.field_popin
+  - views.view.glossary
 required: true

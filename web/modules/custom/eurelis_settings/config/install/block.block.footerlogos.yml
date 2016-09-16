@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:02e1918c-d8db-46b3-b1b2-cf29f97590b0'
+  module:
+    - block_content
+  theme:
+    - zurb_foundation
+id: footerlogos
+theme: zurb_foundation
+region: footer_middle
+weight: null
+provider: null
+plugin: 'block_content:02e1918c-d8db-46b3-b1b2-cf29f97590b0'
+settings:
+  id: 'block_content:02e1918c-d8db-46b3-b1b2-cf29f97590b0'
+  label: 'Footer logos'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
